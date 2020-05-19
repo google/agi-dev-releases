@@ -27,8 +27,8 @@ if [ -d ${agipath}/jre ]; then
 fi
 
 # Download and install Azul Zulu JRE 11
-wget https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jre11.0.7-macosx_x64.zip
-echo "d5f40f9a221816e3f4c3219ac658d184d8cb4f99c7a1fb19f4ffc45d88bafd73  zulu11.39.15-ca-jre11.0.7-macosx_x64.zip" | sha256sum --check
+curl -LO https://cdn.azul.com/zulu/bin/zulu11.39.15-ca-jre11.0.7-macosx_x64.zip
+echo "d5f40f9a221816e3f4c3219ac658d184d8cb4f99c7a1fb19f4ffc45d88bafd73  zulu11.39.15-ca-jre11.0.7-macosx_x64.zip" | shasum -c
 unzip zulu11.39.15-ca-jre11.0.7-macosx_x64.zip
 rm zulu11.39.15-ca-jre11.0.7-macosx_x64.zip
 mv zulu11.39.15-ca-jre11.0.7-macosx_x64/zulu-11.jre/Contents/Home ${agipath}/jre
