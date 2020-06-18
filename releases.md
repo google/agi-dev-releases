@@ -42,3 +42,4 @@
 | [v0.10.0-dev-20200612](https://github.com/google/agi-dev-releases/releases/tag/v0.10.0-dev-20200612) | [25df1a736c96ec06d40162d071c122331fe874bb](https://github.com/google/agi/commit/25df1a736c96ec06d40162d071c122331fe874bb) |
 | [v.0.10.0-dev-20200617](https://github.com/google/agi-dev-releases/releases/tag/v.0.10.0-dev-20200617) | [0107458cb4efd1f01d6ba91bdc3949bd801151e8](https://github.com/google/agi/commit/0107458cb4efd1f01d6ba91bdc3949bd801151e8) |
 | [v0.10.0-dev-20200617](https://github.com/google/agi-dev-releases/releases/tag/v0.10.0-dev-20200617) | [0107458cb4efd1f01d6ba91bdc3949bd801151e8](https://github.com/google/agi/commit/0107458cb4efd1f01d6ba91bdc3949bd801151e8) |
+| [v0.10.0-dev-20200618](https://github.com/google/agi-dev-releases/releases/tag/v0.10.0-dev-20200618) | [a33ed8184136895f7afea39a05665146b9a906a8](https://github.com/google/agi/commit/a33ed8184136895f7afea39a05665146b9a906a8) |
