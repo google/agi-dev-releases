@@ -10,7 +10,45 @@ stable releases. The [release.md](releases.md) file lists dev-releases.
 The [latest **unstable** dev-release is available
 here](https://github.com/google/agi-dev-releases/releases/latest).
 
-## Temporary: work around notarization issues on macOS releases
+## How to know the version of an installed AGI
+
+Start AGI, then go the `Help` menu and select `About`: the pop-up window
+contains the version string, which looks like:
+
+```
+0.10.0:dev-20200730-74a5de24d813178531c46cafaecb68d12d384b85
+```
+
+Alternatively, you can use the `gapit -version` command:
+
+```
+$ ./path/to/agi/gapit -version
+GAPIT version 0.10.0:dev-20200730-74a5de24d813178531c46cafaecb68d12d384b85
+```
+
+## How to get notifications for new dev-releases
+
+Launch AGI, go to the `Edit -> Preferences` menu, and tick both “Automatically
+check for AGI updates” and “Include unstable developer releases” options:
+
+![alt text](https://github.com/google/agi-dev-releases/raw/master/images/preferences-menu.png "Screenshot of AGI preferences menu")
+
+Make sure to **relaunch AGI**.
+
+When a new dev-release is published, a "New update available" notification will
+be displayed on the startup screen:
+
+![alt text](https://github.com/google/agi-dev-releases/raw/master/images/new-update.png "Screenshot of AGI startup screen with 'New update available' notification")
+
+Clicking on this notification will bring you to the latest dev-release page on
+GitHub from where you can download the build relevant to your platform.
+
+---
+
+## (Obsolete) Temporary: work around notarization issues on macOS releases
+
+> :warning: This work around was needed for dev-releases between
+> v0.10.0-dev-20200527 and v0.10.0-dev-20200612
 
 We are currently dealing with issues related to macOS notarization. As a
 temporary work around, we stop embedding a JRE in our macOS releases. We
@@ -39,23 +77,6 @@ echo "d5f40f9a221816e3f4c3219ac658d184d8cb4f99c7a1fb19f4ffc45d88bafd73  zulu11.3
 unzip zulu11.39.15-ca-jre11.0.7-macosx_x64.zip
 mv zulu11.39.15-ca-jre11.0.7-macosx_x64/zulu-11.jre/Contents/Home ${agipath}/jre
 ```
-
-## How to get notifications for new dev-releases
-
-Launch AGI, go to the `Edit -> Preferences` menu, and tick both “Automatically
-check for AGI updates” and “Include unstable developer releases” options:
-
-![alt text](https://github.com/google/agi-dev-releases/raw/master/images/preferences-menu.png "Screenshot of AGI preferences menu")
-
-Make sure to **relaunch AGI**.
-
-When a new dev-release is published, a "New update available" notification will
-be displayed on the startup screen:
-
-![alt text](https://github.com/google/agi-dev-releases/raw/master/images/new-update.png "Screenshot of AGI startup screen with 'New update available' notification")
-
-Clicking on this notification will bring you to the latest dev-release page on
-GitHub from where you can download the build relevant to your platform.
 
 ---
 
