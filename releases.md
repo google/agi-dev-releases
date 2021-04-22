@@ -119,3 +119,4 @@
 | [v1.1.0-dev-20210412](https://github.com/google/agi-dev-releases/releases/tag/v1.1.0-dev-20210412) | [7ce36c943966c1e01fcd6039e0dca4255f19dc8c](https://github.com/google/agi/commit/7ce36c943966c1e01fcd6039e0dca4255f19dc8c) |
 | [v1.1.0-dev-20210413](https://github.com/google/agi-dev-releases/releases/tag/v1.1.0-dev-20210413) | [9d57cf8179d69da7c5afe1dc68eadf90ca0f45ea](https://github.com/google/agi/commit/9d57cf8179d69da7c5afe1dc68eadf90ca0f45ea) |
 | [v1.1.0-dev-20210421](https://github.com/google/agi-dev-releases/releases/tag/v1.1.0-dev-20210421) | [2d199a4d90ed435541a1830caec22bb4d5020b2c](https://github.com/google/agi/commit/2d199a4d90ed435541a1830caec22bb4d5020b2c) |
+| [v1.1.0-dev-20210422](https://github.com/google/agi-dev-releases/releases/tag/v1.1.0-dev-20210422) | [72a3fa765c4cc9753e11173631f998f2f9086e00](https://github.com/google/agi/commit/72a3fa765c4cc9753e11173631f998f2f9086e00) |
